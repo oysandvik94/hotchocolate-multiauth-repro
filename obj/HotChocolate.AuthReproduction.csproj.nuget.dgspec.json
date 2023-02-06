@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ysteinlangelandsandvik/dev/random/authexample/HotChocolate.AuthReproduction/HotChocolate.AuthReproduction.csproj": {}
+  },
+  "projects": {
+    "/home/ysteinlangelandsandvik/dev/random/authexample/HotChocolate.AuthReproduction/HotChocolate.AuthReproduction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ysteinlangelandsandvik/dev/random/authexample/HotChocolate.AuthReproduction/HotChocolate.AuthReproduction.csproj",
+        "projectName": "HotChocolate.AuthReproduction",
+        "projectPath": "/home/ysteinlangelandsandvik/dev/random/authexample/HotChocolate.AuthReproduction/HotChocolate.AuthReproduction.csproj",
+        "packagesPath": "/home/ysteinlangelandsandvik/.nuget/packages/",
+        "outputPath": "/home/ysteinlangelandsandvik/dev/random/authexample/HotChocolate.AuthReproduction/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ysteinlangelandsandvik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "HotChocolate": {
+              "target": "Package",
+              "version": "[12.16.0, )"
+            },
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[12.16.0, )"
+            },
+            "HotChocolate.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[12.16.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.26.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ysteinlangelandsandvik/.dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
